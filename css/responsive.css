@@ -82,8 +82,10 @@
         text-align: center;
     }
 
+}
 
-
+.red_navbar {
+  background-color: #910808;
 }
 
 @media (max-width: 576px) {
