@@ -87,6 +87,10 @@
 .red_navbar {
   background-color: #910808;
 }
+.red_navbar .navbar-brand span {
+  font-size: 1rem;
+}
+
 
 @media (max-width: 576px) {
     .vehicle_img-box {
