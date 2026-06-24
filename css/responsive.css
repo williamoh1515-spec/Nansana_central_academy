@@ -88,7 +88,14 @@
   background-color: #910808;
 }
 .red_navbar .navbar-brand span {
-  font-size: 1rem;
+  font-size: 1.2rem;   /* default (desktop / large screens) */
+}
+
+/* phones and small screens */
+@media (max-width: 768px) {
+  .red_navbar .navbar-brand span {
+    font-size: 0.85rem;
+  }
 }
 
 
